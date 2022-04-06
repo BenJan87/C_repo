@@ -12,7 +12,7 @@ int main(void)
     int flag = 0;
 
     C = (B+A)/2;
-    while (2>1)
+    for (;;)
     {
         
         if (flag == N)
