@@ -7,12 +7,12 @@ int main(void)
     int T[] = {1, 3, 50, 1000, 2000};
     int N = sizeof(T)/sizeof(int);
     int A=0, B=N-1, C, X, number;
-    printf ("podaj liczbę:\n");
+    printf ("podaj liczbe:\n");
     scanf ("%d", &number);
     int flag = 0;
 
     C = (B+A)/2;
-    while (2>1)
+    for (;;)
     {
         
         if (flag == N)
