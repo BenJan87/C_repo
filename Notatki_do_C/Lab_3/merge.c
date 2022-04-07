@@ -16,11 +16,17 @@ int temp[];
 
 void rem_dup(int t[], int n) {
     
-    for (int i = 0; i < n; i++) {
-        temp[i] = t[i];
-    }
+    int flag = 0;
 
-    
+    for (int i = 0; i < n-1; i++) {
+
+        for (int j = 1; j < n-1; j++) {
+
+            if (t[i] != t[j]) {
+                temp[]
+            }
+        }
+    }
 
 
 }
