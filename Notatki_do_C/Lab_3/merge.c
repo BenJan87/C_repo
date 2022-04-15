@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <time.h>
 
 void draw(int t[], int n) {
     int x;
@@ -12,24 +12,7 @@ void draw(int t[], int n) {
     }
 }
 
-int temp[];
 
-void rem_dup(int t[], int n) {
-    
-    int flag = 0;
-
-    for (int i = 0; i < n-1; i++) {
-
-        for (int j = 1; j < n-1; j++) {
-
-            if (t[i] != t[j]) {
-                temp[]
-            }
-        }
-    }
-
-
-}
 
 
 
@@ -106,11 +89,10 @@ int main(void) {
     scanf("%d%d", &n1, &n2);
     int t1[n1], t2[n2];
 
+    srand(time(NULL));
+
     draw(t1, n1);
     draw(t2, n2);
-
-    // rem_dup(t1, n1);
-    // rem_dup(t1, n2);
 
 
     bubble_sort(t1, n1);

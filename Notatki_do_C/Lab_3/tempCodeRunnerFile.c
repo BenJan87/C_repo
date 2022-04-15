@@ -1,13 +1,16 @@
 #include <stdio.h>
-int a[];
+
+
+
 
 
 int main(void) {
+    double x=5.9;
+    double *ptr = &x;
 
-    
-    a[1] = 5;
-    a[2] = 3;
-    printf("Dziala %d %d", a[1], a[2]);
+    printf("wartosc: %lf\n", x);
+    printf("Wskaznik jako wartosc: %lf", &x);
 
+
+    return 0;
 }
-
