@@ -2,7 +2,7 @@
 ## Description
 
 ```c
-prinf("Hello World!");
+prinf("Hello World!\n");
 ```
 The basic project written in c programming language:
 1. Basic string operating
