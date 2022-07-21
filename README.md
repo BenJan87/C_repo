@@ -1,4 +1,4 @@
-# The basics of C programing language
+# The basics of C programming language
 ## Description
 
 ```c
