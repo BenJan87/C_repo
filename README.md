@@ -2,7 +2,7 @@
 <h3>Description:</h3>
 
 ```c
-prinf("Hello World!\n");
+prinf("Hello World!");
 ```
 The basic project written in c programming language:
 1. Basic string operating
