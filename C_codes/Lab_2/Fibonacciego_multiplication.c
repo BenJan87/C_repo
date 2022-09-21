@@ -27,10 +27,10 @@ int multi_fib(int n) {
 int main(void) {
 
     int n;
-    printf("Podaj liczbe: \n");
+    printf("Give a number: \n");
     scanf("%d", &n);
     
-    ( multi_fib(n) == 1) ? printf("Liczba %d jest iloczynem dwoch kolejnych liczb ciagu Fibpnacciego", n) : printf("Liczba %d nie jest iloczynem dwoch kolejnych liczb ciagu Fibpnacciego", n);
+    ( multi_fib(n) == 1) ? printf("LNumber %d is a multiplication of the two consecutive number of Fibonacci sequence", n) : printf("Number %d is not a multiplication of the two consecutive number of Fibonacci sequence", n);
 
     return 0;
 }

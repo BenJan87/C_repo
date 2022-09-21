@@ -1,5 +1,5 @@
 #include <stdio.h>
-// Funkcja sprawdzająca, czy dana liczba jest pierwsza
+// is prime - function:
 int prime_num(int n) {
     
     if (n<2) return 0;
@@ -10,8 +10,7 @@ int prime_num(int n) {
     return n;
 
 }
-
-// Liczba cyfr w danej liczbie
+//digit number
 int number_of_digits(int x) {
 
     int flag = 0; 
@@ -24,7 +23,7 @@ int number_of_digits(int x) {
     return flag;
 }
 
-//Sprawdzanie, czy ciąg jest niemalejący
+// if array is getting equal or bigger
 int arr_check(int x, int len) {
     int arr[len];
     int temp = x;
